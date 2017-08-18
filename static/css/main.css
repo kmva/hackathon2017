@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding:0;
+    background: url(../img/fon.jpg) no-repeat center top/cover;
+    height:100wh;
+    min-height:630px;
+    
+}
+
+.black{
+    background-color:#000;
+    position:absolute; 
+    top:85px;
+    left:15px; 
+    right:15px; 
+    bottom:15px; 
+    opacity:0.6; 
+    min-height:600px; 
+    
+}
+
+
+div{
+ 	box-sizing: border-box;
+}
+
+header{
+	background: #000;
+    padding-top:0px;
+	padding-bottom:30px;
+    margin:0 15px;
+     
+}
+
+
+.clearfix:after{
+	content:"";
+	display:table;
+	width:100%;
+	clear:both;
+}
+
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+
+.logo{
+	margin-top: 20px;
+	float:left; 
+}
+.vhod{
+    float:right;
+	margin-top:50px;
+    text-decoration: none;
+    font-size:16px;
+
+}
+ 
+.vhod a{
+    text-decoration: none;
+    font-size:16px;
+    color:aliceblue;
+}
+
+.menu{
+	padding:0;
+	margin:0; 
+	display:block;
+	
+}
+
+.vhod li{
+    float:left;
+    display:block;
+	margin-right:15px;
+}
